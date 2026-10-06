@@ -1,0 +1,20 @@
+{
+  "name": "publish-skill-to-github",
+  "version": "0.1.0",
+  "description": "把 Codex 技能/插件打包并发布到 GitHub 公开仓库（生成中英 README、LICENSE、marketplace.json，git 初始化并推送，处理认证与弱网重试）。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "发布 Skill 到 GitHub",
+    "shortDescription": "把 Codex 技能/插件打包并推送到 GitHub 公开仓库",
+    "longDescription": "一键把做好的 Codex skill/plugin 打包成标准插件仓库并发布到 GitHub：生成中英双语 README、MIT LICENSE、marketplace.json，git 初始化并推送，内置弱网重试与 PAT 认证流程。",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": [
+      "帮我把这个 skill 发布到 GitHub。"
+    ]
+  }
+}

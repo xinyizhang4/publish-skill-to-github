@@ -1,0 +1,20 @@
+{
+  "name": "publish-skill-to-github",
+  "interface": {
+    "displayName": "Publish Skill To Github"
+  },
+  "plugins": [
+    {
+      "name": "publish-skill-to-github",
+      "source": {
+        "source": "local",
+        "path": "./plugins/publish-skill-to-github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}
